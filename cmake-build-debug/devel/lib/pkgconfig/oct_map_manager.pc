@@ -1,8 +1,0 @@
-prefix=/home/soulde/final_ws/src/Planner/oct_map_manager/cmake-build-debug/devel
-
-Name: oct_map_manager
-Description: Description of oct_map_manager
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
