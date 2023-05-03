@@ -1,0 +1,12 @@
+<launch>
+    <node pkg="oct_map_manager" type="oct_map_manager_node" name="oct_map_manager" output="screen">
+        <!-- set a private parameter for the node -->
+        <param name="cloudInTopic" type="string" value="/camera/depth/color/points"/>
+        <param name="fixFrameName" type="string" value="world"/>
+        <param name="sourceFrameName" type="string" value="camera"/>
+        <param name="cloudOutTopic" type="string" value="/map/full_cloud"/>
+        cloudOutTopic
+    </node>
+
+
+</launch>
